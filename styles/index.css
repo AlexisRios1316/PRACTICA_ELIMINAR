@@ -1,0 +1,35 @@
+/* GENERALES */
+body {
+  background-color: #444;
+  height: 100vh;
+  width: 100vw;
+}
+/* LOGIN */
+.conteiner-login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-login > form {
+  background-color: rgb(240, 248, 255);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 35px;
+}
+/* IMAGEN */
+.login-img {
+  margin-top: -60px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-img img {
+  width: 100px;
+  height: 100px;
+}
